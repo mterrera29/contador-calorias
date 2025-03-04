@@ -30,7 +30,7 @@ export default function ActivityList({
       </h2>
       {isEmptyActivities && (
         <p className='text-2xl text-slate-600 text-center'>
-          No hay actividades aún
+          No hay actividades
         </p>
       )}
       {activities.map((activity) => (
